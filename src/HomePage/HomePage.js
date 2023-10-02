@@ -1,4 +1,5 @@
 import React from 'react';
+import Charts from "../Charts/Charts";
 
 function HomePage() {
   return (
@@ -69,14 +70,15 @@ function HomePage() {
                 <p>
                     {/*<canvas id="myChart" width="400" height="400"></canvas>*/}
                 </p>
+                {/* <Charts/> */}
             </section>
                    
             <section className="text-box">
-                <h1 tabIndex="26
+                {/*<h1 tabIndex="26
                 ">D3JS Donut Chart</h1>
                 <p tabIndex="27">
-                {/*<div id="d3DonutChart"></div>*/}
-                </p>
+                <div id="d3DonutChart"></div>
+                </p>*/}
             </section>
         </div>
     </div>
